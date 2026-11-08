@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE"]
 readme = "README.md"
-authors = [{name = "Dotoricode"}]
+authors = [{name = "dotoridot"}]
 keywords = ["ai-agents", "audit", "coding-agents", "journal", "orchestration"]
 classifiers = [
   "Development Status :: 3 - Alpha",

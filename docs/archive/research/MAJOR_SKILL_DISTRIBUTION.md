@@ -162,13 +162,13 @@ plugins/
 
 ```bash
 # Codex
-codex plugin marketplace add dotoricode/graphori
+codex plugin marketplace add dotoridot/graphori
 codex plugin add graphori@graphori-marketplace
 ```
 
 ```bash
 # Claude Code
-claude plugin marketplace add dotoricode/graphori
+claude plugin marketplace add dotoridot/graphori
 claude plugin install graphori@graphori-marketplace --scope user
 ```
 

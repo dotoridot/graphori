@@ -42,7 +42,7 @@ git diff --check
 ## PR #2 완료 결과
 
 - 최신 구현 SHA: `f3513f76c254500a300464748d72f7a0804f6c54`
-- PR: `https://github.com/dotoricode/graphori/pull/2`
+- PR: `https://github.com/dotoridot/graphori/pull/2`
 - hosted run `31327819856`: Windows 3.11, Windows 3.12, macOS 모두 success
 - hosted run `31327821989`: Windows 3.11, Windows 3.12, macOS 모두 success
 - 상태: Ready for review
@@ -55,5 +55,5 @@ git diff --check
 
 - I10 수정 보고서: `docs/archive/verification/I10_FIX_REPORT.md`
 - 최신 SHA: `226ecef1f24380107a3fa61faacbce26306354da`
-- PR: `https://github.com/dotoricode/graphori/pull/2`
-- CI: `https://github.com/dotoricode/graphori/actions/runs/31329340506`, `https://github.com/dotoricode/graphori/actions/runs/31329338640` (Windows 3.11·3.12, macOS 모두 success)
+- PR: `https://github.com/dotoridot/graphori/pull/2`
+- CI: `https://github.com/dotoridot/graphori/actions/runs/31329340506`, `https://github.com/dotoridot/graphori/actions/runs/31329338640` (Windows 3.11·3.12, macOS 모두 success)

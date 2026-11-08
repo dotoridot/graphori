@@ -34,8 +34,8 @@ CI는 코드를 올릴 때 자동으로 시험하는 로봇입니다.
 
 확인한 head SHA는 `e3cbfd8343ad2350e26dab9641c8988ab21c03dc`입니다.
 
-- push run: [31324875529](https://github.com/dotoricode/graphori/actions/runs/31324875529), success
-- pull_request run: [31324877422](https://github.com/dotoricode/graphori/actions/runs/31324877422), success
+- push run: [31324875529](https://github.com/dotoridot/graphori/actions/runs/31324875529), success
+- pull_request run: [31324877422](https://github.com/dotoridot/graphori/actions/runs/31324877422), success
 - 각 run의 모든 job conclusion: success
 - runner labels: Windows `windows-latest` 3.11/3.12, macOS `macos-latest`
 - job IDs: push macOS `93273535554`, Windows 3.12 `93273535565`, Windows 3.11 `93273535568`; PR macOS `93273541277`, Windows 3.11 `93273541294`, Windows 3.12 `93273541301`

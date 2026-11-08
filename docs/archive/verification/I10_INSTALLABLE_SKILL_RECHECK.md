@@ -106,7 +106,7 @@ python graphori/scripts/validate_skill.py "<CODEX_HOME>/skills/graphori"        
 
 ## 7. GitHub Actions hosted CI 확인 (최신 SHA 97ded02...)
 
-`gh run view 31329622907 --repo dotoricode/graphori`로 직접 확인했습니다.
+`gh run view 31329622907 --repo dotoridot/graphori`로 직접 확인했습니다.
 
 - `headSha`: `97ded0269bf53ee8f1080389b52dc138b5a8df9f` (PR #2 head와 동일)
 - 전체 `conclusion`: **success**

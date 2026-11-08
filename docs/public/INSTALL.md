@@ -28,7 +28,7 @@ The [`skills`](https://github.com/vercel-labs/skills) CLI lists what a
 repository would install without writing anything:
 
 ```sh
-npx skills add dotoricode/graphori --list
+npx skills add dotoridot/graphori --list
 ```
 
 Node.js 22.20 or newer is required.
@@ -38,8 +38,8 @@ Node.js 22.20 or newer is required.
 These are alternatives to the native plugin, not an additional install step.
 
 ```sh
-npx skills add dotoricode/graphori --skill graphori --agent codex --copy
-npx skills add dotoricode/graphori --skill graphori --agent claude-code --copy
+npx skills add dotoridot/graphori --skill graphori --agent codex --copy
+npx skills add dotoridot/graphori --skill graphori --agent claude-code --copy
 ```
 
 These deliberately omit `--global`. The CLI's global Codex path does not match
@@ -51,7 +51,7 @@ lands somewhere Codex will not read.
 If you would rather read the script than trust an npm package:
 
 ```sh
-gh repo clone dotoricode/graphori -- --depth 1
+gh repo clone dotoridot/graphori -- --depth 1
 cd graphori
 ./scripts/install_graphori.sh --mode solo --target codex --dry-run
 ./scripts/install_graphori.sh --mode solo --target codex

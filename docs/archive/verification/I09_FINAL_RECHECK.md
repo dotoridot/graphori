@@ -3,7 +3,7 @@
 - 재검증자: 독립 fresh verifier(Claude Sonnet 5). I01~I09의 어떤 구현·이전
   감사에도 참여하지 않은 새 세션이며, `I09_FIX_REPORT.md`를 작성한 구현자
   (Luna)와 다른 모델이다.
-- 검증 대상: `dotoricode/graphori` PR #1, head SHA
+- 검증 대상: `dotoridot/graphori` PR #1, head SHA
   `e6fa7086a827c982a6632abd6664dbb048a7fd9a`
 - 검증 일시: 2026-08-10 (Asia/Seoul)
 - 실행 환경: Windows, Python 3.12.1(로컬 재실행), GitHub Actions(Windows
@@ -104,7 +104,7 @@ src/ tests/ scripts/` 결과). `src/graphori_adapters`, `cli.py`,
 
 ## 4. GitHub Actions 실제 확인 (`gh` CLI로 새 SHA 직접 조회)
 
-- `gh run list --repo dotoricode/graphori`로 head SHA
+- `gh run list --repo dotoridot/graphori`로 head SHA
   `e6fa7086a827c982a6632abd6664dbb048a7fd9a`의 실행 두 건을 직접 조회:
   - `push` run `31326371177` → **success**
   - `pull_request` run `31326373980` → **success**

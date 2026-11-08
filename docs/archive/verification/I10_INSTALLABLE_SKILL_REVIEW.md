@@ -5,7 +5,7 @@
 ## 한눈에 보기
 
 - 확인한 커밋(SHA): `d6a34ce294458643629447216bbb04b6bc9f895f`
-- PR #2 주소: https://github.com/dotoricode/graphori/pull/2
+- PR #2 주소: https://github.com/dotoridot/graphori/pull/2
 - **최종 결론: REVISE (두 가지를 고쳐야 통과할 수 있어요)**
   1. README에 적힌 Windows 시작 명령 중 두 줄이 그대로 실행하면 에러가 납니다.
   2. 저장소 밖(`<outside-workspace>\build\ci-artifacts\README.md`)에 우연히 생긴 것으로 보이는 파일이 있습니다.
@@ -20,7 +20,7 @@
 git status --short --branch
 git rev-parse HEAD
 gh pr view 2 --json number,title,state,isDraft,mergeable,headRefOid
-gh api repos/dotoricode/graphori/commits/<SHA>/check-runs
+gh api repos/dotoridot/graphori/commits/<SHA>/check-runs
 ```
 
 **기대값**: PR #2가 열려 있고(OPEN), 병합 가능(MEARGEABLE)하며, Windows Python 3.11 / 3.12 / macOS 세 개 잡이 **그 커밋(SHA)** 에서 전부 성공(success).

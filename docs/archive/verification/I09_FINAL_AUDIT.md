@@ -1,7 +1,7 @@
 # I09 최종 독립 감사 보고서
 
 - 감사자: 독립 최종 감사자(Claude Sonnet 5, 이번 I01~I08 구현·검수를 하지 않은 새 세션)
-- 감사 대상: `dotoricode/graphori` PR #1, head SHA `317d32aa41e13090edf93244bceea0a30ffecb05`
+- 감사 대상: `dotoridot/graphori` PR #1, head SHA `317d32aa41e13090edf93244bceea0a30ffecb05`
 - 감사 일시: 2026-08-10 (Asia/Seoul)
 - 실행 환경: Windows, Python 3.12.1(로컬 재실행), GitHub Actions(Windows 3.11/3.12 + macOS, 실제 hosted runner)
 - Human Gate 출처: **사용자가 2026-08-10 대화에서 단계별 검증과 PR push·merge를 명시적으로 승인**했다. 이 승인은 "검증을 대신 하겠다"는 뜻이 아니라 "검증한 결과를 push/merge해도 된다"는 뜻으로 해석했고, 검증되지 않은 사실은 만들어 쓰지 않았다.
@@ -384,8 +384,8 @@ python -m compileall -q src tests
 python graphori/scripts/validate_skill.py graphori
 python scripts/dashboard_smoke.py
 python scripts/generate_ci_evidence.py --platform windows --output <temp>/ci-evidence-windows-local.json
-gh run list --repo dotoricode/graphori --limit 6 --json ...
-gh run download 31325123531 --repo dotoricode/graphori --dir <temp>/artifacts
+gh run list --repo dotoridot/graphori --limit 6 --json ...
+gh run download 31325123531 --repo dotoridot/graphori --dir <temp>/artifacts
 grep -riE "<personal-path-pattern>|<credential-pattern>" <temp>/artifacts
 python <temp>/i09_probes.py   # 40개 독립 probe, temp에서만 실행
 python -m graphori_core.cli --root <temp e2e> --run-id demo1 run -- python -c "print('hello graphori')"

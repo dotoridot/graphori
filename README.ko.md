@@ -1,6 +1,6 @@
 # Graphori
 
-[![skills.sh에서 설치](https://skills.sh/b/dotoricode/graphori)](https://skills.sh/dotoricode/graphori)
+[![skills.sh에서 설치](https://skills.sh/b/dotoridot/graphori)](https://skills.sh/dotoridot/graphori)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
@@ -206,7 +206,7 @@ standalone 복사를 거부한다.
 ### Claude Code
 
 ```text
-/plugin marketplace add dotoricode/graphori
+/plugin marketplace add dotoridot/graphori
 /plugin install graphori@graphori
 ```
 
@@ -215,7 +215,7 @@ standalone 복사를 거부한다.
 ### Codex
 
 ```sh
-codex plugin marketplace add dotoricode/graphori
+codex plugin marketplace add dotoridot/graphori
 codex plugin add graphori@graphori
 ```
 

@@ -24,10 +24,10 @@ classifiers = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/dotoricode/graphori"
-Source = "https://github.com/dotoricode/graphori"
-Changelog = "https://github.com/dotoricode/graphori/blob/main/CHANGELOG.md"
-Issues = "https://github.com/dotoricode/graphori/issues"
+Documentation = "https://github.com/dotoridot/graphori"
+Source = "https://github.com/dotoridot/graphori"
+Changelog = "https://github.com/dotoridot/graphori/blob/main/CHANGELOG.md"
+Issues = "https://github.com/dotoridot/graphori/issues"
 
 [project.scripts]
 graphori = "graphori_core.product_cli:main"

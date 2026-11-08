@@ -2,7 +2,7 @@
   "name": "graphori",
   "description": "Graphori skills for planning, agent routing, verification, replay, and local run visibility.",
   "owner": {
-    "name": "dotoricode"
+    "name": "dotoridot"
   },
   "plugins": [
     {
@@ -11,7 +11,7 @@
       "version": "0.9.0-beta.1",
       "source": "./",
       "author": {
-        "name": "dotoricode"
+        "name": "dotoridot"
       },
       "category": "Development"
     }

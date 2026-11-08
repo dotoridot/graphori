@@ -96,17 +96,17 @@ class LocalReleaseContractTests(unittest.TestCase):
             combined = readme + chr(10) + shared
             with self.subTest(readme=name):
                 # Both agents get a native plugin install in the README itself.
-                self.assertIn("codex plugin marketplace add dotoricode/graphori", readme)
+                self.assertIn("codex plugin marketplace add dotoridot/graphori", readme)
                 self.assertIn("codex plugin add graphori@graphori", readme)
-                self.assertIn("/plugin marketplace add dotoricode/graphori", readme)
+                self.assertIn("/plugin marketplace add dotoridot/graphori", readme)
                 self.assertIn("/plugin install graphori@graphori", readme)
                 self.assertIn("### Codex", readme)
                 self.assertIn("### Claude Code", readme)
                 # The remaining routes may live in the shared install document.
-                self.assertIn("npx skills add dotoricode/graphori --list", combined)
+                self.assertIn("npx skills add dotoridot/graphori --list", combined)
                 self.assertIn("--skill graphori --agent codex --copy", combined)
                 self.assertIn("--skill graphori --agent claude-code --copy", combined)
-                self.assertIn("gh repo clone dotoricode/graphori -- --depth 1", combined)
+                self.assertIn("gh repo clone dotoridot/graphori -- --depth 1", combined)
                 self.assertIn("--mode solo --target codex", combined)
                 self.assertIn("--target claude", combined)
                 self.assertIn("~/.agents/skills/graphori", combined)
@@ -125,8 +125,8 @@ class LocalReleaseContractTests(unittest.TestCase):
                 # Routes stay ordered from least to most manual: the native
                 # plugin install in the README, then preview, then clone.
                 self.assertLess(
-                    shared.index("npx skills add dotoricode/graphori --list"),
-                    shared.index("gh repo clone dotoricode/graphori -- --depth 1"),
+                    shared.index("npx skills add dotoridot/graphori --list"),
+                    shared.index("gh repo clone dotoridot/graphori -- --depth 1"),
                 )
 
     def test_readmes_publish_completed_public_and_historical_benchmark_boundaries(self):

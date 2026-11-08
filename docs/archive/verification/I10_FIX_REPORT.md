@@ -38,6 +38,6 @@ python -m unittest tests.test_personal_paths -v
 
 최신 수정 커밋 `226ecef1f24380107a3fa61faacbce26306354da`에서 다음 hosted CI가 모두 `success`였습니다.
 
-- [Actions run 31329340506](https://github.com/dotoricode/graphori/actions/runs/31329340506): Windows 3.11, Windows 3.12, macOS
-- [Actions run 31329338640](https://github.com/dotoricode/graphori/actions/runs/31329338640): Windows 3.11, Windows 3.12, macOS
-- [PR #2](https://github.com/dotoricode/graphori/pull/2)
+- [Actions run 31329340506](https://github.com/dotoridot/graphori/actions/runs/31329340506): Windows 3.11, Windows 3.12, macOS
+- [Actions run 31329338640](https://github.com/dotoridot/graphori/actions/runs/31329338640): Windows 3.11, Windows 3.12, macOS
+- [PR #2](https://github.com/dotoridot/graphori/pull/2)

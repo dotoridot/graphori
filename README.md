@@ -1,6 +1,6 @@
 # Graphori
 
-[![Install from skills.sh](https://skills.sh/b/dotoricode/graphori)](https://skills.sh/dotoricode/graphori)
+[![Install from skills.sh](https://skills.sh/b/dotoridot/graphori)](https://skills.sh/dotoridot/graphori)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
@@ -223,7 +223,7 @@ duplicate setup.
 ### Claude Code
 
 ```text
-/plugin marketplace add dotoricode/graphori
+/plugin marketplace add dotoridot/graphori
 /plugin install graphori@graphori
 ```
 
@@ -232,7 +232,7 @@ Restart, then `/graphori:graphori <your task>`.
 ### Codex
 
 ```sh
-codex plugin marketplace add dotoricode/graphori
+codex plugin marketplace add dotoridot/graphori
 codex plugin add graphori@graphori
 ```
 

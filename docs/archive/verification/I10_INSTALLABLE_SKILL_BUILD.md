@@ -47,7 +47,7 @@ python scripts/dashboard_server.py --root $root --port 8765
 - POSIX shell temp-home: Windows의 Git Bash가 `HOME`을 profile로 다시 쓰므로 로컬에서는 `deferred`; macOS hosted runner에서 실행하도록 CI에 넣음
 - macOS 직접 실행: `deferred`; hosted CI fixture 결과만 성공으로 기록
 - hosted Actions: run `31327819856`와 `31327821989`에서 Windows 3.11, Windows 3.12, macOS 모두 success
-- PR #2: `https://github.com/dotoricode/graphori/pull/2`, Ready for review
+- PR #2: `https://github.com/dotoridot/graphori/pull/2`, Ready for review
 
 최종 dashboard를 새 main 상태에서 열 때 사용할 정확한 명령은 다음과 같다. `<sha>`는 최종 commit SHA로 바꾼다.
 
